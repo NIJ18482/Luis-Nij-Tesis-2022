@@ -12,6 +12,7 @@ Como lo indican en su página oficial, el AlphaBot es una plataforma de desarrol
 
 # Alphabot2 -  ¿Donde Comenzar? 
 
-Para la incursión en este ámbito es necesario contar con un background de programación básico de python, microcontroladores y conocimiento básico de electricidad y electrónica. 
+Resulta útil contar con un conocimiento previo de programación básico de python, microcontroladores y conocimiento básico de electricidad y electrónica.
+La plataforma Alphabot, como se mencionó anteriormente es un robot ensamblado de origen chino que puede utilizar Raspberry Pi o Arduino para funcionar dependiendo del modelo adquirido. En este repositorio se discutirá el funcionamiento y se brindarán descripciones y apoyo para la version que monta compatibilidad para modelos Raspberry Pi 3 en adelante. Así mismo, se brindará apoyo utilizando Python como lenguaje de programación y sus librerias asociadas 
 
 
