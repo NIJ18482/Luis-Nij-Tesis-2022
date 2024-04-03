@@ -15,4 +15,10 @@ Como lo indican en su página oficial, el AlphaBot es una plataforma de desarrol
 Resulta útil contar con un conocimiento previo de programación básico de python, microcontroladores y conocimiento básico de electricidad y electrónica.
 La plataforma Alphabot, como se mencionó anteriormente es un robot ensamblado de origen chino que puede utilizar Raspberry Pi o Arduino para funcionar dependiendo del modelo adquirido. En este repositorio se discutirá el funcionamiento y se brindarán descripciones y apoyo para la version que monta compatibilidad para modelos Raspberry Pi 3 en adelante. Así mismo, se brindará apoyo utilizando Python como lenguaje de programación y sus librerias asociadas 
 
+# Alphabot2 -  Robótica de Enjambre
+
+La robótica de enjambre estudia las diferentes estrategias de coordinación de un gran numero de robots simples. Se inspira en el comportamiento observado en insectos sociales, los cuales ejemplifican como un gran numero de individuos pueden interactuar entre sí para crear sistemas complejos e inteligentes. Cabe destacar que en este tipo de sistemas, el comportamiento colectivo surge de forma auto-organizada a partir de las acciones entre individuos y su entorno. Por tanto la inteligencia de enjambre es una característica que emerge como resultado de las interacciones de las masas.
+
+En este tipo de sistemas, el enjambre se caracteriza por ser un conjunto de individuos capaces de agregar nuevos miembros (sistema con capacidad de cambio en numero de elementos), tener movimiento coordinado y capacidad de dispersarse. Organizados como enjambre, los robots son capaces de realizar tareas colectivas mucho más complejas y demandantes las cuales serían incapaces de realizar si trabajaran de manera individual. Además, a nivel de implementación siempre resulta mucho mas conveniente el diseño y construcción de sistemas roboticos de menor complejidad
+
 
