@@ -186,18 +186,27 @@ Figura 12. Captura de Video durante Pruebas. Implementación de marcadores para 
 
 # SEGUNDA PARTE - PLATAFORMA ALPHABOT 2 / ADAPTACIONES
 
-
-
 Durante el presente trabajo el **AB2** sufrió diversas modificaciones tomando como referencia el diseño original de fábrica. Para que implementar su uso en el entorno Robotat se requirieron cambios tanto en el sistema físico como en los programas y software para administrarlo. Así mismo se plantearon ciertas normas en su diseño y planificación de estructura de red con el objetivo de ser un agente robótico con aplicaciones escalables a futuro. El presente capítulo es una recopilación de como se propusieron y ejecutaron dichos cambios. 
 
 ## Modificaciones de Hardware - Sensores de Proximidad
 
-Uno de los primeros hallazgos surgidos durante la etapa de experimentación con el **AB2** se relaciona con el tema de los sensores de proximidad integrados en la placa inferior. Los sensores de proximidad presentes en el **AB2** utilizan señales infrarrojas que rebotan sobre los objetos y gracias a ello detectan la presencia de obstáculos frente al agente robótico. Estos sensores se encuentran apuntando hacia el frente del **AB2** tal como se puede observar en la figura A CONTINUACION. Durante la experimentación con el agente robótico se encontró que los sensores son del tipo binario, es decir presentan un umbral de detección que indica si hay o no hay obstáculo frente a él. Estos sensores no son capaces de medir distancias concretas si no mas bien se activan o desactivan ante la presencia de objetos a cierta distancia. Esta distancia es relativa a la posición de dichos sensores y apunta ortogonalmente frente a ellos. Se puede manipular el umbral de detección desde unos pocos centímetros hasta ciertos $14$ cm sin perder precisión considerable. Para realizar pruebas respecto al umbrales de detección se hizo necesario ajustar la resistencia de sensibilidad de los sensores que, como podemos ver en la Figura siguiente se encuentra en la placa inferior, sobre la cara que da al suelo. Se hace necesario utilizar destornillador fino y bastante paciencia ya que son potenciómetros tipo trimpot, cabe resaltar que cada sensor tiene si propio potenciómetro. 
+Uno de los primeros hallazgos surgidos durante la etapa de experimentación con el **AB2** se relaciona con el tema de los sensores de proximidad integrados en la placa inferior. Los sensores de proximidad presentes en el **AB2** utilizan señales infrarrojas que rebotan sobre los objetos y gracias a ello detectan la presencia de obstáculos frente al agente robótico. Estos sensores se encuentran apuntando hacia el frente del **AB2** tal como se puede observar en la **Figura 13**. Durante la experimentación con el agente robótico se encontró que los sensores son del tipo binario, es decir presentan un umbral de detección que indica si hay o no hay obstáculo frente a él. Estos sensores no son capaces de medir distancias concretas si no mas bien se activan o desactivan ante la presencia de objetos a cierta distancia. Esta distancia es relativa a la posición de dichos sensores y apunta ortogonalmente frente a ellos. Se puede manipular el umbral de detección desde unos pocos centímetros hasta ciertos $14$ cm sin perder precisión considerable. Para realizar pruebas respecto al umbrales de detección se hizo necesario ajustar la resistencia de sensibilidad de los sensores que, como podemos ver en la **Figura 14** se encuentra en la placa inferior, sobre la cara que da al suelo. Se hace necesario utilizar destornillador fino y bastante paciencia ya que son potenciómetros tipo trimpot, cabe resaltar que cada sensor tiene si propio potenciómetro. 
 
---- INSERTAR FIGURA ---
+<img src="https://github.com/NIJ18482/Luis-Nij-Tesis-2022/assets/60576547/6c0fbd11-4b73-4e70-babc-3819986c9c6f" width="720">
+
+Figura 13. Ubicación de los sensores infrarrojos en diseño original del **AB2**
+
+
+<img src="https://github.com/NIJ18482/Luis-Nij-Tesis-2022/assets/60576547/746ae904-f6fc-412a-9939-9d4292bef832" width="720">
+
+Figura 14. Ubicación de los potenciómetros de ajuste en el **AB2** 
 
 Debido a que el sistema de captura de movimiento **OptiTrack** utiliza cámaras que emiten señales infrarrojas se observó que el agente robótico presenta falsas lecturas de obstáculos cuando se intenta medir su posición con dicho sistema. Así mismo debido a la ubicación de la mesa de pruebas del Robotat relativa a la ventana que da al exterior del laboratorio, se observó que la incidencia de luz solar presenta complicaciones para los sensores del robot. Esto se observó 
-principalmente por horas cercanas al medio día y por la tarde, ya que el ángulo de incidencia es más directo sobre el ambiente de trabajo. Como se observa en la figura \ref{fig:Robotat_Optitrack}, la ventana del laboratorio es considerablemente amplia y por tanto permite un alto grado de iluminación natural.  
+principalmente por horas cercanas al medio día y por la tarde, ya que el ángulo de incidencia es más directo sobre el ambiente de trabajo. Como se observa en la **Figura 15**, la ventana del laboratorio es considerablemente amplia y por tanto permite un alto grado de iluminación natural.  
+
+<img src="https://github.com/NIJ18482/Luis-Nij-Tesis-2022/assets/60576547/ff2102a2-016f-4a55-aeff-e5b2466902e6" width="720">
+
+Figura 15. Distribución física del sistema de captura de movimiento **OptiTrack** en UVG
 
 Tomando en consideración lo anterior se evaluó la posibilidad de cambiar el mecanismo de detección de obstáculos por un sistema que no dependa ni se vea interferido por las señales infrarrojas del sistema **OptiTrack**. De este modo surgió la propuesta de utilizar un sensor ultrasónico y aprovechar los pines que trae la placa inferior del **AB2** especiales para dicho sensor. Cabe mencionar que esta elección está guiada en el hecho de que el sensor ultrasónico basa su funcionamiento en el mecanismo de emisión y recepción de ondas sonoras que rebotan en los obstáculos. Esto permite medir con mayor precisión la presencia de objetos y su distancia al agente robótico en comparación a los sensores infrarrojos que trae por defecto.
 
@@ -205,7 +214,15 @@ Se  procedió a abandonar el uso de los sensores infrarrojos frontales y utiliza
 
 ## Modificaciones de Hardware - Video Cámara Pi-Cam
 
-Producto del diseño de la carcasa de protección para el agente robótico se trabajó bajo la premisa de eliminar el brazo articulado que permite el movimiento de la cámara de video del **AB2**. Se llegó a la conclusión de eliminar el mecanismo de brazo articulado, y por tanto el uso de servomotores, dado que el agente robótico es capaz de girar sobre su propio eje vertical y dado que la tarea de reconocimiento de obstáculos se desarrolla con mayor eficiencia si la cámara apunta directamente al frente del robot. Esta consideración se incluye en el diseño de la carcasa haciendo que la cámara se encuentre encima del sensor de proximidad del robot y apunte siempre hacia adelante. Como podemos observar en la siguiente Figura la primera iteración de la carcaza se describe a continuación.
+Producto del diseño de la carcasa de protección para el agente robótico se trabajó bajo la premisa de eliminar el brazo articulado que permite el movimiento de la cámara de video del **AB2**. Se llegó a la conclusión de eliminar el mecanismo de brazo articulado, y por tanto el uso de servomotores, dado que el agente robótico es capaz de girar sobre su propio eje vertical y dado que la tarea de reconocimiento de obstáculos se desarrolla con mayor eficiencia si la cámara apunta directamente al frente del robot. Esta consideración se incluye en el diseño de la carcasa haciendo que la cámara se encuentre encima del sensor de proximidad del robot y apunte siempre hacia adelante. Como podemos observar en las **Figuras 16 y 17**  la primera iteración de la carcaza se describe a continuación.
+
+
+<img src="https://github.com/NIJ18482/Luis-Nij-Tesis-2022/assets/60576547/8c5815f1-b1cd-482c-8917-cfcecca2c242" width="720">
+Figura 16. Primera iteración de la Carcasa renderizada en Inventor (modelado 3D)
+
+
+<img src="https://github.com/NIJ18482/Luis-Nij-Tesis-2022/assets/60576547/c12f8517-362d-4b1f-b1dc-45a8562811d3" width="720">
+Figura 17. Primera iteración de la Carcasa ensamblada en agente robótico
 
 ## Modificaciones de Hardware - Carcaza de Protección Iteración 1 
 
@@ -223,12 +240,19 @@ Dependiendo de las necesidades, se encontró que ambos métodos poseen ventajas 
 
 Si bien el uso de VNC representó un mayor consumo de potencia se encontró que por medio del cambio de fondo de pantalla en cada uno de los agentes hacía mas fácil saber qué agente se está administrando. En ssh esa facilidad no se tuvo y en algunos puntos debido a que el aspecto de la línea de comandos es el mismo para todos los agentes a excepción del usuario corriendo en las placas de desarrollo se optó por usar un software que facilitara el proceso de conexión y el caso antes mencionado. Por ello se optó por utilizar el programa Termius, un cliente ssh que permite crear perfiles de conexión, agregar etiquetas y configurar contraseñas automáticas además de tener la capacidad de enviar archivos desde el equipo que ejecuta el programa hacia el equipo remoto. Esto facilitó la edición de códigos y su transferencia a los agentes que, en un principio con VNC se hacía vía memoria USB flash. 
 
-
 Derivado de lo anterior se decidió por optar por el uso de ssh por medio de Termius para la administración de los agentes robóticos. Cabe mencionar que para lograr la conexión ssh o VNC primero se debió configurar los agentes para que reconocieran y establecieran conexión con la red inalámbrica del sistema Robotat. 
 
 ## Modificaciones de Software - Nombramiento de Agentes
 
 Para establecer un orden en cuanto a las pruebas, facilitar el proceso de conexión con los agentes se establecieron direcciones ip estáticas para los agentes robóticos y para la computadora del autor. Derivado de que la plataforma **AB2** posee un puerto de conexión estándar para los pines de propósito genera, así de que existen varias versiones de placa de desarrollo compatibles con este puerto se optó por diversificar el uso en cuanto a modelo de Raspberry Pi**. En la tabla 1 podemos observar resumido el esquema de direccionamiento para este proyecto. Se abargó el rango de direcciones estáticas desde la 192.168.50.60 hasta la 192.168.50.68. Las primeras 5 direcciones pensadas en servir como direcciones para equipos de cómputo del autor y en el futuro para futuros investigadores y el rango de la 65 a la 68 para 4 agentes robóticos. Si bien solo se cuenta con 3 agentes robóticos completos, se pretende dejar reservado el espacio para un agente mas y de momento implementarlo en un solo agente robótico con posibilidad de intercambiar las placas, específicamente entre el agente A1 y A2.
+
+| AGENTE ROBÓTICO  | DIRECCIÓN IP | RASPBERRY PI MODEL  |
+| PC del autor | 192.168.50.60 | Laptop con Windows |
+| Invitados  | 192.168.50.60-64  | Laptop con Windows |
+| A1  | 192.168.50.65  | Pi 4  |
+| A2  | 192.168.50.66 | Pi 3b+  |
+| A3  | 192.168.50.67 | Pi Zero  |
+| A4  | 192.168.50.68 | Pi Zero  |
 
 ## Modificaciones de Software - Librería de Funciones
 
