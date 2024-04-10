@@ -1,6 +1,11 @@
 # Luis-Nij-Tesis-2022
 Repositorio para documentos, archivos y códigos para tesis de Luis Nij.
 
+El siguiente trabajo pretende aportar en materia de plataformas móviles de robótica con posibles aplicaciones en inteligencia de enjambre. El objetivo principal fue realizar, con un punto de vista basado en ingeniería, un aporte enfocado en las capacidades, limitaciones y modificaciones a ciertos ejemplos de plataformas móviles preexistentes. Para ello se hizo necesario evaluar el estado original, proponer y efectuar cambios que permitieran la integración de los agentes robóticos involucrados en este trabajo, en ambientes de prueba ya utilizados por la Universidad. Se escogieron herramientas de programación y ensamblaje físico coherentes con las especificaciones de los robots así como  pruebas que permitieran corroborar las funcionalidades que ofrecen por defecto y las funcionalidades finales agregadas producto del presente proyecto.
+
+La utilización de robots basados en placa de desarrollo \textit{Raspberry Pi} permitió agregar una mayor capacidad de procesamiento y permitió ampliar los horizontes en lo que a posibilidades de proyectos se refiere. La elección de esta placa de desarrollo fue determinante en la escalabilidad de grupos de robots variados. Se busca que con los resultados obtenidos y la documentación elaborada se amplíe el conocimiento y los recursos disponibles para la Universidad y el Departamento de Ingeniería Electrónica, Mecatrónica  y Biomédica para la cátedra de cursos relacionados a programación, electrónica y robótica. 
+
+Producto de las pruebas planteadas, las modificaciones y los experimentos implementados se obtuvo como resultado la integración de sistemas preexistentes de la Universidad a un entorno en el que los robots de prueba del presente trabajo pudieran interactuar. Así mismo se aportó con documentación respecto a la plataforma y los cambios ejecutados. Todo esto se realizó con la intención facilitar los futuros trabajos que incluyan esta plataforma como parte de los sujetos de investigación
 
 # Alphabot2 -  Robot diferencial comercial
 
