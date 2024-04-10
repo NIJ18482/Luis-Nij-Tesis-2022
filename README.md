@@ -1,4 +1,4 @@
-# Luis-Nij-Tesis-2022
+![Ensamblado-Partes](https://github.com/NIJ18482/Luis-Nij-Tesis-2022/assets/60576547/56744614-5da7-470a-be68-ec95d5db50ce)# Luis-Nij-Tesis-2022
 
 Repositorio para documentos, archivos y scripts de trabajo de graduación.
 
@@ -8,7 +8,7 @@ La utilización de robots basados en placa de desarrollo **Raspberry Pi** permit
 
 Producto de las pruebas planteadas, las modificaciones y los experimentos implementados se obtuvo como resultado la integración de sistemas preexistentes de la Universidad a un entorno en el que los robots de prueba del presente trabajo pudieran interactuar. Así mismo se aportó con documentación respecto a la plataforma y los cambios ejecutados. Todo esto se realizó con la intención facilitar los futuros trabajos que incluyan esta plataforma como parte de los sujetos de investigación
 
-# ANTECEDENTES - CONTEXTO PREVIO DE TRABAJOS RELACIONADOS EN UNIVERSIDAD DEL VALLE DE GUATEMALA Y EL MUNDO
+# Antecedentes - Contexto previo de trabajos realizados en Universidad del Valle de Guatemala y el Mundo
 
 Una de las aplicaciones de la ingeniería mecatrónica es la robótica y un tópico de particular interés en esta rama de la ciencia es la robótica de enjambres. Se habla de robótica de enjambres a la coordinación de múltiples robots simples (conocidos como agentes) que en un número considerable constituyen un sistema mucho mas complejo y capaz de realizar tareas mas elaboradas. 
 
@@ -54,32 +54,43 @@ Figura 3: Sistema Robotat - Camaras de captura de movimiento vista 1
 Figura 4: Sistema Robotat - Camaras de captura de movimiento vista 2
 
 
-# Alphabot02 - Robot modular comercial
+## Alphabot02 - Robot modular comercial
 
 
 En el mercado existen diferentes propuestas de plataformas móbiles con aplicaciones en robótica. Una de estas opciones, desarrollada por la empresa China **Waveshare Electronics**, se denomina **Alphabot** y actualmente cuenta con dos iteraciones en el diseño de esta línea de robots.  El kit comercial posee una placa de circuito impreso como base del chasis y sobre ella, una segunda placa con posibilidad de conectar una Raspberry Pi o una placa Arduino como unidad de procesamiento.  En la Figura 5 observamos el agente robótico con la placa de desarrollo expuesta, en la Figura 6 observamos el agente robótico ensamblado.
 
 
-<img src="https://github.com/NIJ18482/Luis-Nij-Tesis-2022/assets/60576547/95495c5d-9413-4f79-ad1b-3aee30aadd99" width="680">
+<img src="https://github.com/NIJ18482/Luis-Nij-Tesis-2022/assets/60576547/95495c5d-9413-4f79-ad1b-3aee30aadd99" width="480">
 
-Figura 5: Plataforma Móbil **Alphabot 2** desarmada, vista superior
-
-
-<img src="https://github.com/NIJ18482/Luis-Nij-Tesis-2022/assets/60576547/b3950bf8-393a-40d2-8d4c-b29a603f46a8" width="680">
-
-Figura 6: Plataforma Móbil **Alphabot 2** desarmada, vista frontal 
-
-# Alphabot2 -  Análisis mas profundo.
-<img src="https://github.com/NIJ18482/Luis-Nij-Tesis-2022/assets/60576547/45096c54-8e6b-4289-bf59-a32b29097f30" width="400" >
-
-AlphaBot es el nombre con el que se denomina a una serie de productos desarrollados por la empresa china WaveShare Electronics. Esta línea de productos posee, hasta el momento, dos versiones de de robots móviles con interfaz para las placas de desarrollo Arduino Uno y Raspberry Pi. Ambas versiones poseen documentación general relativamente reciente en el sitio web oficial de la empresa, dicha información data del año 2017. 
-
-Como lo indican en su página oficial, el AlphaBot es una plataforma de desarrollo robótica que conjuga elementos de placas electrónicas, armazón móvil y todo lo necesario para la locomoción del mismo. Se pretende que dicha plataforma dote al usuario de la capacidad de implementar proyectos por medio de los diferentes sensores disponibles en el robot. Algunos ejemplos involucran evasión de obstáculos, seguimiento de líneas, monitoreo con videocámara así como conectividad Bluetooth y/o WiFi dependiendo del modelo de AlphaBot utilizado. Esta oferta de plataforma robótica se encuentra en el rango de precio medio-alto comparado a otras ofertas de la misma empresa orientadas al sector de plataformas móviles con interfaz disponible para Raspberry Pi. Consultando el costo de venta (sin considerar costos de envío, nacionales o internacionales), el AlphaBot2 se ofrece desde los $98.99 USD la versión más sencilla sin placa de desarrollo Raspberry Pi hasta los $238.99 USD (la versión más completa).
-
-<img src="https://user-images.githubusercontent.com/60576547/202885375-8bfc6cfe-7512-4938-96c8-73ac50673eec.png" width="400" height="200">
+Figura 5: Plataforma Móbil **Alphabot 2** desarmada, vista frontal.
 
 
-# Conocimiento Previo -  ¿Donde Comenzar? 
+<img src="https://github.com/NIJ18482/Luis-Nij-Tesis-2022/assets/60576547/b3950bf8-393a-40d2-8d4c-b29a603f46a8" width="480">
+
+Figura 6: Plataforma Móbil **Alphabot 2** desarmada, vista superior. 
+
+# ¿Cuál es el aporte que pretendemos?
+
+Para continuar con el desarrollo de las aplicaciones de robótica de enjambre se hace necesario utilizar una plataforma móvil que permita la locomoción de los agentes en un entorno de pruebas no virtuales. Es importante recordar que una parte crucial en el desarrollo de estos algoritmos de robótica es la validación con sistemas físicos y en ambientes reales. El nuevo laboratorio de robótica de la UVG, que cuenta con una plataforma de pruebas y sistema de captura de movimiento permitirá continuar con la línea de investigación. Gracias a los distintos avances en el proyecto Robotat se han desarrollado variaciones en algoritmos de róbotica de enjambre como PSO y Ant Colony y se les ha aplicado mejoras basadas en aprendizaje profundo que logren mayor eficiencia en sus procesos de cálculo. Así mismo, se han desarrollado herramientas y complementos de software cuyo objetivo fue mitigar la falta de agentes físicos en la implementación de los algoritmos antes mencionados. Se pretende entonces, continuar con la línea de investigación en robótica y desarrollo de software, parcialmente pausados entre otros motivos por la pandemia de COVID-19. Se busca evaluar las capacidades de distintas opciones de plataformas móviles que permitan implementar algoritmos y llevar a cabo experimentos de robótica de enjambre en pruebas físicas.
+
+Al momento de la realización de este trabajo, la situación general respecto a la pandemia por COVID-19 comenzaba a presentar transición hacia una  **nueva normalidad**. Ello incluyó la habilitación de espacios de trabajo grupal con las limitantes de aforo y tiempo de trabajo que gradualmente presentaron menores restricciones. Gracias a esta transición fue posible desarrollar pruebas que involucraron la integración sistemas físicos prácticos, entre ellos una red inalámbrica dedicada a proyectos de robótica en los laboratorios de las nuevas instalaciones de la universidad así como el sistema de cámaras para captura de movimientos **Optitrack**. Así mismo, gracias a la cooperación con la Universidad de Navarra, fue posible agenciarse de agentes robóticos por lo que este proyecto incluye implementación en código y pruebas con agentes físicos. Esto permitió realizar experimentos en cuanto a las características de componentes de los agentes y su integración con el sistema Robotat. Se focalizaron esfuerzos en comprender el funcionamiento, bondades y limitaciones de la plataforma móvil disponible dejando para futuros trabajos la implementación de algoritmos, códigos fuente y proyectos con rutinas puntuales. La documentación y recursos audiovisuales representan también parte fundamental del aporte de este trabajo.
+
+# CONOCIMIENTO PREVIO 
+
+## Alphabot2 -  Análisis mas profundo.
+
+**AlphaBot** es el nombre con el que se denomina a una serie de productos desarrollados por la empresa china **WaveShare** **Electronics**. Esta línea de productos posee, hasta el momento, dos versiones de de robots móviles con interfaz para las placas de desarrollo **Arduino Uno** y **Raspberry Pi**. Ambas versiones poseen documentación general relativamente reciente en el sitio web oficial de la empresa, dicha información data del año 2017. 
+
+Como lo indican en su página oficial, el **AlphaBot** es una plataforma de desarrollo robótica que conjuga elementos de placas electrónicas, armazón móvil y todo lo necesario para la locomoción del mismo. Se pretende que dicha plataforma dote al usuario de la capacidad de implementar proyectos por medio de los diferentes sensores disponibles en el robot. Algunos ejemplos involucran evasión de obstáculos, seguimiento de líneas, monitoreo con videocámara así como conectividad **Bluetooth** y/o **WiFi** dependiendo del modelo de **AlphaBot** utilizado. Esta oferta de plataforma robótica se encuentra en el rango de precio medio-alto comparado a otras ofertas de la misma empresa orientadas al sector de plataformas móviles con interfaz disponible para **Raspberry Pi**. Consultando el costo de venta (sin considerar costos de envío, nacionales o internacionales), el **AlphaBot2** se ofrece desde los $98.99$ $USD (la versión más sencilla sin placa de desarrollo **Raspberry Pi** hasta los $238.99 $USD (la versión más completa). 
+
+El **AlphaBot** posee un diseño modular, ensamblable sin necesidad de soldadura de componentes ni herramientas complejas. Como se observa en la Figura 7, el diseño consta de una placa superior específica dependiendo del modelo de placa de desarrollo a utilizar, una placa base común para todos los modelos la cual posee los actuadores y sensores así como un brazo articulado en la parte superior que posee integración con video cámara.
+El **Alphabot2** pretende abarcar un mercado amplio relacionado a la docencia de temas de programación y electrónica así como su utilización por entusiastas y grupos con reciente introducción en la materia. El único detalle a considerar proveniente de fábrica es la no inclusión de baterías. El presente trabajo enfocó el análisis en la plataforma robótica **AlphaBot** en su segunda versión con interfaz de conexión para placa de desarrollo **Raspberry Pi** denominado **AlphaBot2-Pi**. 
+
+<img src="https://github.com/NIJ18482/Luis-Nij-Tesis-2022/assets/60576547/b16198cf-3ffd-447e-9c1a-60ab8602b5f9" width="480">
+
+Figura 7. Composision estructural del agente robótico Alphabot02
+
+## ¿Donde Comenzar? 
 
 Resulta útil contar con un conocimiento previo de programación básico de python, microcontroladores y conocimiento básico de electricidad y electrónica.
 La plataforma Alphabot, como se mencionó anteriormente es un robot ensamblado de origen chino que puede utilizar Raspberry Pi o Arduino para funcionar dependiendo del modelo adquirido. En este repositorio se discutirá el funcionamiento y se brindarán descripciones y apoyo para la version que monta compatibilidad para modelos Raspberry Pi 3 en adelante. Así mismo, se brindará apoyo utilizando Python como lenguaje de programación y sus librerias asociadas 
@@ -103,7 +114,6 @@ Raspberry Pi es el nombre de una serie de mini ordenadores diseñados por la Fun
 El modelo original de Raspberry tuvo un procesador de un único núcleo con 700MHz de velocidad e incorporaba 256 MB de memoria RAM. Los computadores de este tipo se han caracterizado por tratar de hacer asequible la adquisición de los mismos lo que se refleja en los precios de compra directos con la Fundación Raspberry Pi. Concretamente estos ordenadores han costado en promedio 35 dólares americanos (USD) y poseen modelos tan económicos como 5 dólares.
 
 Desde su lanzamiento, la plataforma Raspberry Pi ha tenido una aceptación notable al rededor del mundo ya que muchas personas la utilizan para aprender y desarrollar proyectos de programación y electrónica. Gracias a que estas tarjetas electrónicas incorporan pines físicos es posible realizar tareas en las que el procesador interactúe con elementos y circuitería externa. Esto ha dotado de multitud de posibilidades a la tarjeta electrónica lo cual se ve reflejado en su popularidad en la comunidad de desarrolladores, estudiantes y entusiastas.
-
 
 ### Modelos disponibles
 
@@ -142,15 +152,6 @@ Parte fundamental de las características operativas de un agente robótico es d
 # PRIMERA PARTE - PLATAFORMA ALPHABOT / EXPERIMENTACIÓN
 
 A lo largo de las etapas del proyecto **Robotat** se han implementado diferentes pruebas relacionadas a temas de robótica de enjambre tales como algoritmos, comunicación y aprendizaje profundo. Debido a la contingencia mundial por el coronavirus, en los años 2020 y 2021 los esfuerzos fueron focalizados a realizar experimentos en ambientes simulados en computadora tales como **Webots**, un programa de código abierto con didáctica enfocada a la robótica, y **Matlab**, un sistema de cómputo numérico capaz de procesar grandes cantidades de datos. Fue hasta 2022 cuando se presentó una tesis cuyo tema giró en torno a la creación de un modelo de agente robótico fabricado en UVG con la capacidad de probar dichos algoritmos y procesos en un entorno físico. El presente trabajo tomó como base un modelo de robot móvil comercial disponible en el mercado y procedió a realizar una extracción de parámetros desde la perspectiva de ingeniería lo cual constituye el capítulo a continuación.
-
-## Acerca del agente robótico
-
-**AlphaBot** es el nombre con el que se denomina a una serie de productos desarrollados por la empresa china **WaveShare** **Electronics**. Esta línea de productos posee, hasta el momento, dos versiones de de robots móviles con interfaz para las placas de desarrollo **Arduino Uno** y **Raspberry Pi**. Ambas versiones poseen documentación general relativamente reciente en el sitio web oficial de la empresa, dicha información data del año 2017. 
-
-Como lo indican en su página oficial, el **AlphaBot** es una plataforma de desarrollo robótica que conjuga elementos de placas electrónicas, armazón móvil y todo lo necesario para la locomoción del mismo. Se pretende que dicha plataforma dote al usuario de la capacidad de implementar proyectos por medio de los diferentes sensores disponibles en el robot. Algunos ejemplos involucran evasión de obstáculos, seguimiento de líneas, monitoreo con videocámara así como conectividad **Bluetooth** y/o **WiFi** dependiendo del modelo de **AlphaBot** utilizado. Esta oferta de plataforma robótica se encuentra en el rango de precio medio-alto comparado a otras ofertas de la misma empresa orientadas al sector de plataformas móviles con interfaz disponible para **Raspberry Pi**. Consultando el costo de venta (sin considerar costos de envío, nacionales o internacionales), el **AlphaBot2** se ofrece desde los $98.99$ $USD (la versión más sencilla sin placa de desarrollo **Raspberry Pi** hasta los $238.99 $USD (la versión más completa). 
-
-El **AlphaBot** posee un diseño modular, ensamblable sin necesidad de soldadura de componentes ni herramientas complejas. Como se observa en la Figura \ref{fig:Alphabot_Partes}, el diseño consta de una placa superior específica dependiendo del modelo de placa de desarrollo a utilizar, una placa base común para todos los modelos la cual posee los actuadores y sensores así como un brazo articulado en la parte superior que posee integración con video cámara.
-El **Alphabot2** pretende abarcar un mercado amplio relacionado a la docencia de temas de programación y electrónica así como su utilización por entusiastas y grupos con reciente introducción en la materia. El único detalle a considerar proveniente de fábrica es la no inclusión de baterías. El presente trabajo enfocó el análisis en la plataforma robótica **AlphaBot** en su segunda versión con interfaz de conexión para placa de desarrollo **Raspberry Pi** denominado **AlphaBot2-Pi**. 
 
 ## Primera Implementación en UVG
  
