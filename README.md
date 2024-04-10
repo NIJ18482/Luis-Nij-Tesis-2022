@@ -4,8 +4,7 @@ Repositorio para documentos, archivos y códigos para tesis de Luis Nij.
 
 # Alphabot2 -  Robot diferencial comercial
 
-![Iteración2](https://github.com/NIJ18482/Luis-Nij-Tesis-2022/assets/60576547/45096c54-8e6b-4289-bf59-a32b29097f30|width=50)
-
+<img src="https://github.com/NIJ18482/Luis-Nij-Tesis-2022/assets/60576547/45096c54-8e6b-4289-bf59-a32b29097f30" width="100" height="50">
 
 AlphaBot es el nombre con el que se denomina a una serie de productos desarrollados por la empresa china WaveShare Electronics. Esta línea de productos posee, hasta el momento, dos versiones de de robots móviles con interfaz para las placas de desarrollo Arduino Uno y Raspberry Pi. Ambas versiones poseen documentación general relativamente reciente en el sitio web oficial de la empresa, dicha información data del año 2017. 
 
