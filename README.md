@@ -16,7 +16,8 @@ Una de las aplicaciones de la ingeniería mecatrónica es la robótica y un tóp
 
 Se conoce como Robotarium a la plataforma desarrollada por estudiantes del Instituto de Tecnología de Georgia, la cual permite realizar simulaciones y verificaciones de algoritmos y pruebas con agentes físicos robóticos. A nivel de software esta plataforma está basada en el uso de Matlab-Python y provee acceso remoto a estudiantes y profesionales de todo el mundo por medio de un análisis previo del trabajo a realizar por parte del personal encargado de dicho laboratorio en el Instituto de Tecnología de Georgia \cite{GT_robotarium}. Físicamente se compone de una plataforma plana, de color blanco sobre la cual se pueden encontrar dispositivos de medición como sensores, cámaras y demás dispositivos de telemetría que extraerán datos de las pruebas. 
 
-<img src="https://github.com/NIJ18482/Luis-Nij-Tesis-2022/assets/60576547/64705e9b-7296-4fd5-b387-7e64ec819111" width="400">
+<img src="https://github.com/NIJ18482/Luis-Nij-Tesis-2022/assets/60576547/64705e9b-7296-4fd5-b387-7e64ec819111" width="720">
+Figura 1. Sistema Robotarium instalado en instituto Georgia Tech.
 
 ## Proyecto Robotat Fase 1 - Universidad del Valle de Guatemala
 
@@ -34,9 +35,10 @@ En esta fase se busca enfocar los esfuerzos en el diseño de una plataforma móv
 
 ## Ecosistema Robotat - Universidad del Valle de Guatemala
 
-En las instalaciones de la Universidad se cuenta con un laboratorio que dispone de un sistema de experimentación en robótica denominado **Robotat**. Está constituido por una mesa de pruebas con bordillo, rodeada de un sistema de cámaras de captura de movimiento de alta precisión y baja latencia administrados por una computadora central. Dicho sistema utiliza dispositivos denominados "marcadores" que son piezas plásticas con características especiales para ser detectadas por el sistema de cámaras. Este conjunto se integra a una red inalámbrica por medio de un enrutador dedicado sin conexión a internet. Dentro del equipo de computo que administra el sistema de cámaras se dispone de un código fuente para ejecutar un servidor que responda a solicitudes de la ubicación y características de los marcadores de prueba. En la Figura \ref{fig:Sistema_Robotat} se observa el sistema completo, en la Figura \ref{fig:Camaras_1} y Figura \ref{fig:Camaras_2} observamos un acercamiento al sistema de cámaras.
+En las instalaciones de la Universidad se cuenta con un laboratorio que dispone de un sistema de experimentación en robótica denominado **Robotat**. Está constituido por una mesa de pruebas con bordillo, rodeada de un sistema de cámaras de captura de movimiento de alta precisión y baja latencia administrados por una computadora central. Dicho sistema utiliza dispositivos denominados "marcadores" que son piezas plásticas con características especiales para ser detectadas por el sistema de cámaras. Este conjunto se integra a una red inalámbrica por medio de un enrutador dedicado sin conexión a internet. Dentro del equipo de computo que administra el sistema de cámaras se dispone de un código fuente para ejecutar un servidor que responda a solicitudes de la ubicación y características de los marcadores de prueba. En la **Figura 2** se observa el sistema completo, en la Figura \ref{fig:Camaras_1} y Figura \ref{fig:Camaras_2} observamos un acercamiento al sistema de cámaras.
 
-<img src="https://github.com/NIJ18482/Luis-Nij-Tesis-2022/assets/60576547/2173e6ae-3700-4c5c-b8a0-24ace943d391" width="400">
+<img src="https://github.com/NIJ18482/Luis-Nij-Tesis-2022/assets/60576547/2173e6ae-3700-4c5c-b8a0-24ace943d391" width="720">
+Figura 2: Sistema Robotat en Universidad del Valle de Guatemala
 
 # Alphabot2 -  Robot diferencial comercial
 
