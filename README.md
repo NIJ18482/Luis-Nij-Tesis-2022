@@ -155,13 +155,38 @@ A lo largo de las etapas del proyecto **Robotat** se han implementado diferentes
 
 ## Primera Implementación en UVG
  
-Se dispone de ejemplares del **AlphaBot2-Pi** (de aquí en adelante, **AB2**) gracias a la cooperación entre la Universidad de Navarra, España y el Departamento de Ingeniería Electrónica, Mecatrónica y Biomédica de la Universidad del Valle de Guatemala. Dichos activos fueron otorgados en 2022 a la unidad de UVG antes mencionada (Figura \ref{fig:mesh100} izquierda) y al autor del presente trabajo como estudiante colaborador de UVG (Figura \ref{fig:mesh100} derecha). Durante el proyecto de cooperación se confirió al autor del presente trabajo la tarea de preparar los **AB2** para su utilización en pruebas de ejecución y validación de algoritmos de física granular estudiados por el Licenciado Robles. Producto de ello se emitió un reportaje publicado en la sección de noticias del sitio web oficial de la Universidad del Valle brindando más detalles al respecto.
+Se dispone de ejemplares del **AlphaBot2-Pi** (de aquí en adelante, **AB2**) gracias a la cooperación entre la Universidad de Navarra, España y el Departamento de Ingeniería Electrónica, Mecatrónica y Biomédica de la Universidad del Valle de Guatemala. Dichos activos fueron otorgados en 2022 a la unidad de UVG antes mencionada **(Figura 8 izquierda)** y al autor del presente trabajo como estudiante colaborador de UVG **(Figura 8 derecha)**. Durante el proyecto de cooperación se confirió al autor del presente trabajo la tarea de preparar los **AB2** para su utilización en pruebas de ejecución y validación de algoritmos de física granular estudiados por el Licenciado Robles. Producto de ello se emitió un reportaje publicado en la sección de noticias del sitio web oficial de la Universidad del Valle brindando más detalles al respecto.
 
-En esa oportunidad se construyó el sistema robótico guiándose con las instrucciones proporcionadas por el fabricante. Como resultado se obtuvo el sistema descrito en la Figura \ref{fig:Alphabot_Original} destacando visualmente la inclusión de una video cámara con brazo móvil articulado.  Debido a la necesidad de realizar constantes pruebas, se realizaron modificaciones a las características originales del robot. Se hizo necesario aumentar la capacidad y modificar la compatibilidad de las baterías del agente con las opciones de baterías disponibles en Guatemala. Las baterías escogidas aumentaron el tiempo de autonomía así como el peso y espacio requerido para transportarlas. Para ello se diseñó un acople provisional basándose en los puntos de unión originales del robot de tal modo que tanto el costo de modificación como el impacto al robot mismo fueran mínimos. Como se observa en la Figura \ref{fig:Alphabot_Nij} se optó por implementar un diseño modular apilado. Esto requirió desmontar la estructura de la video cámara antes mencionada en favor de ubicar las baterías (fuente considerable de peso) lo mas cercana al suelo considerando el diseño original permitiendo mantener el centro de masa del robot lo mas bajo posible. 
 
-En dicha oportunidad el objetivo principal consistió en verificar la funcionalidad original de la plataforma así como su capacidad de ejecutar tareas relacionadas al seguimiento de líneas pintadas en el suelo. Como se observa en la Figura \ref{fig:Alphabot_LineFollow}, se construyó un sistema simple de circuito de prueba (pista) para probar y afinar dicha característica que requería del uso de sensores infrarrojos ubicados en la placa electrónica inferior del robot. En el repositorio se encuentra disponible un video tomado desde una perspectiva superior de la pista de pruebas. En dicho video se observa el movimiento de los agentes (3 agentes) a través del circuito levando consigo un código identificador ArUco**. Dichos identificadores permitieron utilizar herramientas de software para marcar el movimiento relativo de objetos y extraer datos relacionados a velocidades, orientaciones relativas entre otros. 
+<img src="https://github.com/NIJ18482/Luis-Nij-Tesis-2022/assets/60576547/bc420aec-b07b-4d52-bbf1-4fc698ef9cc2" width="720">
+
+Figura 8. Trabajo en conjunto, Juan Diego Robles (Izquierda) Universidad de Navarra, España; Luis Javier Nij (Derecha) Universidad del Valle de Guatemala
+
+En esa oportunidad se construyó el sistema robótico guiándose con las instrucciones proporcionadas por el fabricante. Como resultado se obtuvo el sistema descrito en la **Figura 9** destacando visualmente la inclusión de una video cámara con brazo móvil articulado.  Debido a la necesidad de realizar constantes pruebas, se realizaron modificaciones a las características originales del robot. Se hizo necesario aumentar la capacidad y modificar la compatibilidad de las baterías del agente con las opciones de baterías disponibles en Guatemala. Las baterías escogidas aumentaron el tiempo de autonomía así como el peso y espacio requerido para transportarlas. Para ello se diseñó un acople provisional basándose en los puntos de unión originales del robot de tal modo que tanto el costo de modificación como el impacto al robot mismo fueran mínimos. Como se observa en la **Figura 10** se optó por implementar un diseño modular apilado. Esto requirió desmontar la estructura de la video cámara antes mencionada en favor de ubicar las baterías (fuente considerable de peso) lo mas cercana al suelo considerando el diseño original permitiendo mantener el centro de masa del robot lo mas bajo posible. 
+
+En dicha oportunidad el objetivo principal consistió en verificar la funcionalidad original de la plataforma así como su capacidad de ejecutar tareas relacionadas al seguimiento de líneas pintadas en el suelo. Como se observa en la **Figura 11**, se construyó un sistema simple de circuito de prueba (pista) para probar y afinar dicha característica que requería del uso de sensores infrarrojos ubicados en la placa electrónica inferior del robot. En el repositorio se encuentra disponible un video tomado desde una perspectiva superior de la pista de pruebas. En dicho video se observa el movimiento de los agentes (3 agentes) a través del circuito levando consigo un código identificador ArUco**. Dichos identificadores permitieron utilizar herramientas de software para marcar el movimiento relativo de objetos y extraer datos relacionados a velocidades, orientaciones relativas entre otros. 
+
+<img src="https://github.com/NIJ18482/Luis-Nij-Tesis-2022/assets/60576547/8ed7a569-994d-48c9-8f0a-cada9f8281b1" width="720">
+
+Figura 9. Ejemplar de **Alphabot2-Pi** ensamblado en su forma original
+
+
+<img src="https://github.com/NIJ18482/Luis-Nij-Tesis-2022/assets/60576547/93c8dcf6-4d20-4a42-b58a-49f5c21e7ae1" width="720">
+
+Figura 10. Ejemplar de **Alphabot2-Pi** facilitado gracias al apoyo de Lic. Juan diego Robles con modificaciones provisionales implementadas
+
+
+<img src="https://github.com/NIJ18482/Luis-Nij-Tesis-2022/assets/60576547/6cc89aca-12bb-456a-9008-deabe1dbd2be" width="720">
+
+Figura 11. Trabajo en conjunto, Juan Diego Robles (Izquierda) Universidad de Navarra, España; Luis Javier Nij (Derecha) Universidad del Valle de Guatemala utilizando recursos del entorno.
+
+<img src="https://github.com/NIJ18482/Luis-Nij-Tesis-2022/assets/60576547/f3c0beb8-31c2-4776-895e-05b5ebe483bd" width="720">
+
+Figura 12. Captura de Video durante Pruebas. Implementación de marcadores para reconocimiento de movimiento **ArUco**
 
 # SEGUNDA PARTE - PLATAFORMA ALPHABOT 2 / ADAPTACIONES
+
+
 
 Durante el presente trabajo el **AB2** sufrió diversas modificaciones tomando como referencia el diseño original de fábrica. Para que implementar su uso en el entorno Robotat se requirieron cambios tanto en el sistema físico como en los programas y software para administrarlo. Así mismo se plantearon ciertas normas en su diseño y planificación de estructura de red con el objetivo de ser un agente robótico con aplicaciones escalables a futuro. El presente capítulo es una recopilación de como se propusieron y ejecutaron dichos cambios. 
 
