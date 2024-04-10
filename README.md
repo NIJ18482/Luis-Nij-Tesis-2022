@@ -1,4 +1,4 @@
-![Ensamblado-Partes](https://github.com/NIJ18482/Luis-Nij-Tesis-2022/assets/60576547/56744614-5da7-470a-be68-ec95d5db50ce)# Luis-Nij-Tesis-2022
+# Luis-Nij-Tesis-2022
 
 Repositorio para documentos, archivos y scripts de trabajo de graduación.
 
