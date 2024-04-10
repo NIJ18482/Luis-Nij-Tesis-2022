@@ -166,7 +166,7 @@ En esa oportunidad se construyó el sistema robótico guiándose con las instruc
 
 En dicha oportunidad el objetivo principal consistió en verificar la funcionalidad original de la plataforma así como su capacidad de ejecutar tareas relacionadas al seguimiento de líneas pintadas en el suelo. Como se observa en la **Figura 11**, se construyó un sistema simple de circuito de prueba (pista) para probar y afinar dicha característica que requería del uso de sensores infrarrojos ubicados en la placa electrónica inferior del robot. En el repositorio se encuentra disponible un video tomado desde una perspectiva superior de la pista de pruebas. En dicho video se observa el movimiento de los agentes (3 agentes) a través del circuito levando consigo un código identificador ArUco**. Dichos identificadores permitieron utilizar herramientas de software para marcar el movimiento relativo de objetos y extraer datos relacionados a velocidades, orientaciones relativas entre otros. 
 
-<img src="https://github.com/NIJ18482/Luis-Nij-Tesis-2022/assets/60576547/8ed7a569-994d-48c9-8f0a-cada9f8281b1" width="720">
+<img src="https://github.com/NIJ18482/Luis-Nij-Tesis-2022/assets/60576547/444c56a3-8ab5-4008-8d0e-fe0a9ff2283e" width="720">
 
 Figura 9. Ejemplar de **Alphabot2-Pi** ensamblado en su forma original
 
