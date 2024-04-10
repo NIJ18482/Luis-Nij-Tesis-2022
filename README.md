@@ -18,6 +18,27 @@ Se conoce como Robotarium a la plataforma desarrollada por estudiantes del Insti
 
 <img src="https://github.com/NIJ18482/Luis-Nij-Tesis-2022/assets/60576547/64705e9b-7296-4fd5-b387-7e64ec819111" width="400">
 
+## Proyecto Robotat Fase 1 - Universidad del Valle de Guatemala
+
+En la primera fase del proyecto Robotat de la Universidad del Valle de Guatemala, se trabajó en el diseño de la plataforma física de robots con el objetivo de ser usado en pruebas de modelos de robótica de enjambre. Esta fase fue desarrollada por André Rodas. Se utilizaron cámaras para la captura de imagenes y módulos de comunicación Wireless Field (WiFi) para establecer comunicación entre la computadora central y los diferentes robots agentes,a los que se denominó como **Bitbots**. El proceso de conexión y montaje de la red inalámbrica fue desarrollado por Marlon Castillo. 
+
+## Proyecto Robotat Fase 2 - Universidad del Valle de Guatemala
+
+Para la segunda fase del proyecto se optó por utilizar una versión modificada del algoritmo **Particle Swarm Optimization** como modelo de planificación de trayectorias. Esto fue desarrollado por Aldo Aguilar y busca que por medio del concepto de funciones de costo se encuentren los valores optimos para dirigir a los agentes del enjambre. Se encontró que una de las principales limitaciones en la implementación del algoritmo en agentes con dimensiones físicas es la posible saturación de actuadores y movimiento irregular. Para resolver esto se propuso que la posición calculada por el algoritmo debe ser únicamente una sugerencia y que partiendo de esa referencia, el agente procede a calcular la rotación que debería ejecutar para dirigirse a dicho punto y considerar como caso óptimo, aquellos movimientos con la menor energía involucrada. Durante esta fase se implementaron simulaciones de particulas sin masa ni dimensiones en Matlab y se utilizó **Webots** para simular el comportamiento de los agentes en un entorno con restricciones físicas. 
+
+Así mismo, Eduardo Santizo empleó la metodología de aprendizaje reforzado y aprendizaje profundo para elaborar un **PSO Tuner** y un generador de trayectorias. Esto involucró la utilización de una red neuronal recurrente cuyo entrenamiento necesitó mas de 7000 simulaciones del algoritmo estándar \textit{PSO} y así poder reducir el tiempo de convergencia del algoritmo original **PSO**. Para el planificador de trayectorias se utilizó aprendizaje profundo con **Webots**. Se pretendía valorar las trayectorias generadas en base al esquema de penalización-recompensa en donde la trayectoria calculada recibía una recompensa si permitía que los robots esquivaran obstáculos y recibía una penalización si chocaba contra ellos. Por otra parte, Gabriela Iriarte presentó avances en la implementación del algoritmo de inteligencia de enjambre conocido como **Ant Colony Optimization** como alternativa al planificador de trayectorias y al **MPSO**. Las simulaciónes de su trabajo se desarrollaron en **Matlab** y **Webots**.
+
+## Proyecto Robotat Fase 3 - Universidad del Valle de Guatemala
+
+En esta fase se busca enfocar los esfuerzos en el diseño de una plataforma móvil que permita aplicar los algoritmos de robótica de enjambre desarrollados en fases anteriores. Se toma como base los conceptos y diseños de robots agentes como el **E-puck**, **Pi-Puck** y los **Kylobots** con el objetivo de hacer rentable y escalable la producción de los mismos. Esta etapa del proyecto continúa en proceso, sin embargo se obtienen avances en cuanto a los costos y a los módulos de comunicación y análisis de imagen con cámara lo que permite abrir la posibilidad de futuras implementaciones. 
+
+## Ecosistema Robotat - Universidad del Valle de Guatemala
+
+En las instalaciones de la Universidad se cuenta con un laboratorio que dispone de un sistema de experimentación en robótica denominado **Robotat**. Está constituido por una mesa de pruebas con bordillo, rodeada de un sistema de cámaras de captura de movimiento de alta precisión y baja latencia administrados por una computadora central. Dicho sistema utiliza dispositivos denominados "marcadores" que son piezas plásticas con características especiales para ser detectadas por el sistema de cámaras. Este conjunto se integra a una red inalámbrica por medio de un enrutador dedicado sin conexión a internet. Dentro del equipo de computo que administra el sistema de cámaras se dispone de un código fuente para ejecutar un servidor que responda a solicitudes de la ubicación y características de los marcadores de prueba. En la Figura \ref{fig:Sistema_Robotat} se observa el sistema completo, en la Figura \ref{fig:Camaras_1} y Figura \ref{fig:Camaras_2} observamos un acercamiento al sistema de cámaras.
+
+<img src="https://github.com/NIJ18482/Luis-Nij-Tesis-2022/assets/60576547/3c4e41a9-d611-4196-923d-d11e39d2e5f8" width="400">
+
+
 # Alphabot2 -  Robot diferencial comercial
 
 <img src="https://github.com/NIJ18482/Luis-Nij-Tesis-2022/assets/60576547/45096c54-8e6b-4289-bf59-a32b29097f30" width="400" >
