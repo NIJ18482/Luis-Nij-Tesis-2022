@@ -36,8 +36,7 @@ En esta fase se busca enfocar los esfuerzos en el diseño de una plataforma móv
 
 En las instalaciones de la Universidad se cuenta con un laboratorio que dispone de un sistema de experimentación en robótica denominado **Robotat**. Está constituido por una mesa de pruebas con bordillo, rodeada de un sistema de cámaras de captura de movimiento de alta precisión y baja latencia administrados por una computadora central. Dicho sistema utiliza dispositivos denominados "marcadores" que son piezas plásticas con características especiales para ser detectadas por el sistema de cámaras. Este conjunto se integra a una red inalámbrica por medio de un enrutador dedicado sin conexión a internet. Dentro del equipo de computo que administra el sistema de cámaras se dispone de un código fuente para ejecutar un servidor que responda a solicitudes de la ubicación y características de los marcadores de prueba. En la Figura \ref{fig:Sistema_Robotat} se observa el sistema completo, en la Figura \ref{fig:Camaras_1} y Figura \ref{fig:Camaras_2} observamos un acercamiento al sistema de cámaras.
 
-<img src="https://github.com/NIJ18482/Luis-Nij-Tesis-2022/assets/60576547/3c4e41a9-d611-4196-923d-d11e39d2e5f8" width="400">
-
+<img src="https://github.com/NIJ18482/Luis-Nij-Tesis-2022/assets/60576547/2173e6ae-3700-4c5c-b8a0-24ace943d391" width="400">
 
 # Alphabot2 -  Robot diferencial comercial
 
