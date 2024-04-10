@@ -1,5 +1,6 @@
 # Luis-Nij-Tesis-2022
-Repositorio para documentos, archivos y códigos para tesis de Luis Nij.
+
+Repositorio para documentos, archivos y scripts de trabajo de graduación.
 
 El siguiente trabajo pretende aportar en materia de plataformas móviles de robótica con posibles aplicaciones en inteligencia de enjambre. El objetivo principal fue realizar, con un punto de vista basado en ingeniería, un aporte enfocado en las capacidades, limitaciones y modificaciones a ciertos ejemplos de plataformas móviles preexistentes. Para ello se hizo necesario evaluar el estado original, proponer y efectuar cambios que permitieran la integración de los agentes robóticos involucrados en este trabajo, en ambientes de prueba ya utilizados por la Universidad. Se escogieron herramientas de programación y ensamblaje físico coherentes con las especificaciones de los robots así como  pruebas que permitieran corroborar las funcionalidades que ofrecen por defecto y las funcionalidades finales agregadas producto del presente proyecto.
 
@@ -7,9 +8,19 @@ La utilización de robots basados en placa de desarrollo **Raspberry Pi** permit
 
 Producto de las pruebas planteadas, las modificaciones y los experimentos implementados se obtuvo como resultado la integración de sistemas preexistentes de la Universidad a un entorno en el que los robots de prueba del presente trabajo pudieran interactuar. Así mismo se aportó con documentación respecto a la plataforma y los cambios ejecutados. Todo esto se realizó con la intención facilitar los futuros trabajos que incluyan esta plataforma como parte de los sujetos de investigación
 
+# ANTECEDENTES - CONTEXTO PREVIO DE TRABAJOS RELACIONADOS EN UNIVERSIDAD DEL VALLE DE GUATEMALA Y EL MUNDO
+
+Una de las aplicaciones de la ingeniería mecatrónica es la robótica y un tópico de particular interés en esta rama de la ciencia es la robótica de enjambres. Se habla de robótica de enjambres a la coordinación de múltiples robots simples (conocidos como agentes) que en un número considerable constituyen un sistema mucho mas complejo y capaz de realizar tareas mas elaboradas. 
+
+## Robotarium - Georgia Tech
+
+Se conoce como Robotarium a la plataforma desarrollada por estudiantes del Instituto de Tecnología de Georgia, la cual permite realizar simulaciones y verificaciones de algoritmos y pruebas con agentes físicos robóticos. A nivel de software esta plataforma está basada en el uso de Matlab-Python y provee acceso remoto a estudiantes y profesionales de todo el mundo por medio de un análisis previo del trabajo a realizar por parte del personal encargado de dicho laboratorio en el Instituto de Tecnología de Georgia \cite{GT_robotarium}. Físicamente se compone de una plataforma plana, de color blanco sobre la cual se pueden encontrar dispositivos de medición como sensores, cámaras y demás dispositivos de telemetría que extraerán datos de las pruebas. 
+
+<img src="https://github.com/NIJ18482/Luis-Nij-Tesis-2022/assets/60576547/64705e9b-7296-4fd5-b387-7e64ec819111" width="400">
+
 # Alphabot2 -  Robot diferencial comercial
 
-<img src="https://github.com/NIJ18482/Luis-Nij-Tesis-2022/assets/60576547/45096c54-8e6b-4289-bf59-a32b29097f30" width="400" height="200">
+<img src="https://github.com/NIJ18482/Luis-Nij-Tesis-2022/assets/60576547/45096c54-8e6b-4289-bf59-a32b29097f30" width="400" >
 
 AlphaBot es el nombre con el que se denomina a una serie de productos desarrollados por la empresa china WaveShare Electronics. Esta línea de productos posee, hasta el momento, dos versiones de de robots móviles con interfaz para las placas de desarrollo Arduino Uno y Raspberry Pi. Ambas versiones poseen documentación general relativamente reciente en el sitio web oficial de la empresa, dicha información data del año 2017. 
 
