@@ -15,7 +15,8 @@ AlphaBot es el nombre con el que se denomina a una serie de productos desarrolla
 
 Como lo indican en su página oficial, el AlphaBot es una plataforma de desarrollo robótica que conjuga elementos de placas electrónicas, armazón móvil y todo lo necesario para la locomoción del mismo. Se pretende que dicha plataforma dote al usuario de la capacidad de implementar proyectos por medio de los diferentes sensores disponibles en el robot. Algunos ejemplos involucran evasión de obstáculos, seguimiento de líneas, monitoreo con videocámara así como conectividad Bluetooth y/o WiFi dependiendo del modelo de AlphaBot utilizado. Esta oferta de plataforma robótica se encuentra en el rango de precio medio-alto comparado a otras ofertas de la misma empresa orientadas al sector de plataformas móviles con interfaz disponible para Raspberry Pi. Consultando el costo de venta (sin considerar costos de envío, nacionales o internacionales), el AlphaBot2 se ofrece desde los $98.99 USD la versión más sencilla sin placa de desarrollo Raspberry Pi hasta los $238.99 USD (la versión más completa).
 
-![image](https://user-images.githubusercontent.com/60576547/202885375-8bfc6cfe-7512-4938-96c8-73ac50673eec.png)
+<img src="https://user-images.githubusercontent.com/60576547/202885375-8bfc6cfe-7512-4938-96c8-73ac50673eec.png" width="400" height="200">
+
 
 # Conocimiento Previo -  ¿Donde Comenzar? 
 
