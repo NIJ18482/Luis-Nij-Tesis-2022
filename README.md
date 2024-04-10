@@ -218,10 +218,12 @@ Producto del diseño de la carcasa de protección para el agente robótico se tr
 
 
 <img src="https://github.com/NIJ18482/Luis-Nij-Tesis-2022/assets/60576547/8c5815f1-b1cd-482c-8917-cfcecca2c242" width="720">
+
 Figura 16. Primera iteración de la Carcasa renderizada en Inventor (modelado 3D)
 
 
 <img src="https://github.com/NIJ18482/Luis-Nij-Tesis-2022/assets/60576547/c12f8517-362d-4b1f-b1dc-45a8562811d3" width="720">
+
 Figura 17. Primera iteración de la Carcasa ensamblada en agente robótico
 
 ## Modificaciones de Hardware - Carcaza de Protección Iteración 1 
@@ -246,7 +248,9 @@ Derivado de lo anterior se decidió por optar por el uso de ssh por medio de Ter
 
 Para establecer un orden en cuanto a las pruebas, facilitar el proceso de conexión con los agentes se establecieron direcciones ip estáticas para los agentes robóticos y para la computadora del autor. Derivado de que la plataforma **AB2** posee un puerto de conexión estándar para los pines de propósito genera, así de que existen varias versiones de placa de desarrollo compatibles con este puerto se optó por diversificar el uso en cuanto a modelo de Raspberry Pi**. En la tabla 1 podemos observar resumido el esquema de direccionamiento para este proyecto. Se abargó el rango de direcciones estáticas desde la 192.168.50.60 hasta la 192.168.50.68. Las primeras 5 direcciones pensadas en servir como direcciones para equipos de cómputo del autor y en el futuro para futuros investigadores y el rango de la 65 a la 68 para 4 agentes robóticos. Si bien solo se cuenta con 3 agentes robóticos completos, se pretende dejar reservado el espacio para un agente mas y de momento implementarlo en un solo agente robótico con posibilidad de intercambiar las placas, específicamente entre el agente A1 y A2.
 
+
 | AGENTE ROBÓTICO  | DIRECCIÓN IP | RASPBERRY PI MODEL  |
+| ------------- | ------------- | ------------- | 
 | PC del autor | 192.168.50.60 | Laptop con Windows |
 | Invitados  | 192.168.50.60-64  | Laptop con Windows |
 | A1  | 192.168.50.65  | Pi 4  |
