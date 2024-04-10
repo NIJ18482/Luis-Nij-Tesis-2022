@@ -16,7 +16,7 @@ Una de las aplicaciones de la ingeniería mecatrónica es la robótica y un tóp
 
 Se conoce como Robotarium a la plataforma desarrollada por estudiantes del Instituto de Tecnología de Georgia, la cual permite realizar simulaciones y verificaciones de algoritmos y pruebas con agentes físicos robóticos. A nivel de software esta plataforma está basada en el uso de Matlab-Python y provee acceso remoto a estudiantes y profesionales de todo el mundo por medio de un análisis previo del trabajo a realizar por parte del personal encargado de dicho laboratorio en el Instituto de Tecnología de Georgia. Físicamente se compone de una plataforma plana, de color blanco sobre la cual se pueden encontrar dispositivos de medición como sensores, cámaras y demás dispositivos de telemetría que extraerán datos de las pruebas. 
 
-<img src="https://github.com/NIJ18482/Luis-Nij-Tesis-2022/assets/60576547/64705e9b-7296-4fd5-b387-7e64ec819111" width="720">
+<img src="https://github.com/NIJ18482/Luis-Nij-Tesis-2022/assets/60576547/64705e9b-7296-4fd5-b387-7e64ec819111" width="680">
 
 Figura 1. Sistema Robotarium instalado en instituto Georgia Tech.
 
@@ -38,17 +38,18 @@ En esta fase se busca enfocar los esfuerzos en el diseño de una plataforma móv
 
 En las instalaciones de la Universidad se cuenta con un laboratorio que dispone de un sistema de experimentación en robótica denominado **Robotat**. Está constituido por una mesa de pruebas con bordillo, rodeada de un sistema de cámaras de captura de movimiento de alta precisión y baja latencia administrados por una computadora central. Dicho sistema utiliza dispositivos denominados "marcadores" que son piezas plásticas con características especiales para ser detectadas por el sistema de cámaras. Este conjunto se integra a una red inalámbrica por medio de un enrutador dedicado sin conexión a internet. Dentro del equipo de computo que administra el sistema de cámaras se dispone de un código fuente para ejecutar un servidor que responda a solicitudes de la ubicación y características de los marcadores de prueba. En la **Figura 2** se observa el sistema completo, en las **Figuras 3 y 4** observamos un acercamiento al sistema de cámaras.
 
-<img src="https://github.com/NIJ18482/Luis-Nij-Tesis-2022/assets/60576547/2173e6ae-3700-4c5c-b8a0-24ace943d391" width="720">
+
+<img src="https://github.com/NIJ18482/Luis-Nij-Tesis-2022/assets/60576547/2173e6ae-3700-4c5c-b8a0-24ace943d391" width="680">
 
 Figura 2: Sistema Robotat en Universidad del Valle de Guatemala
 
 
-<img src="https://github.com/NIJ18482/Luis-Nij-Tesis-2022/assets/60576547/5ac79c25-5d1a-4aa8-aea6-edfbd3686036" width="720">
+<img src="https://github.com/NIJ18482/Luis-Nij-Tesis-2022/assets/60576547/5ac79c25-5d1a-4aa8-aea6-edfbd3686036" width="680">
 
 Figura 3: Sistema Robotat - Camaras de captura de movimiento vista 1
 
 
-<img src="https://github.com/NIJ18482/Luis-Nij-Tesis-2022/assets/60576547/d54d2905-971a-431e-86e0-da89eb3fd72b" width="720">
+<img src="https://github.com/NIJ18482/Luis-Nij-Tesis-2022/assets/60576547/d54d2905-971a-431e-86e0-da89eb3fd72b" width="680">
 
 Figura 4: Sistema Robotat - Camaras de captura de movimiento vista 2
 
@@ -58,12 +59,13 @@ Figura 4: Sistema Robotat - Camaras de captura de movimiento vista 2
 
 En el mercado existen diferentes propuestas de plataformas móbiles con aplicaciones en robótica. Una de estas opciones, desarrollada por la empresa China **Waveshare Electronics**, se denomina **Alphabot** y actualmente cuenta con dos iteraciones en el diseño de esta línea de robots.  El kit comercial posee una placa de circuito impreso como base del chasis y sobre ella, una segunda placa con posibilidad de conectar una Raspberry Pi o una placa Arduino como unidad de procesamiento.  En la Figura 5 observamos el agente robótico con la placa de desarrollo expuesta, en la Figura 6 observamos el agente robótico ensamblado.
 
-<img src="https://github.com/NIJ18482/Luis-Nij-Tesis-2022/assets/60576547/95495c5d-9413-4f79-ad1b-3aee30aadd99" width="720">
+
+<img src="https://github.com/NIJ18482/Luis-Nij-Tesis-2022/assets/60576547/95495c5d-9413-4f79-ad1b-3aee30aadd99" width="680">
 
 Figura 5: Plataforma Móbil **Alphabot 2** desarmada, vista superior
 
 
-<img src="https://github.com/NIJ18482/Luis-Nij-Tesis-2022/assets/60576547/b3950bf8-393a-40d2-8d4c-b29a603f46a8" width="720">
+<img src="https://github.com/NIJ18482/Luis-Nij-Tesis-2022/assets/60576547/b3950bf8-393a-40d2-8d4c-b29a603f46a8" width="680">
 
 Figura 6: Plataforma Móbil **Alphabot 2** desarmada, vista frontal 
 
