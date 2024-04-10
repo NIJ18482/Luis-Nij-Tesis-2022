@@ -260,3 +260,8 @@ Para establecer un orden en cuanto a las pruebas, facilitar el proceso de conexi
 
 ## Modificaciones de Software - Librería de Funciones
 
+El agente robótico **AB2** utiliza la placa de desarrollo **Raspberry Pi**. Debido a esto se pueden implementar códigos en diferentes lenguajes, entre ellos Python. Por tanto y valiendose de la documentación disponible respecto al hardware y componentes del **AB2** se desarrolló una librería en dicho lenguaje para interactuar con los distintos sensores y actuadores presentes en el agente robótico. 
+
+Esta librería incluye funciones para la manipulación de los motores, sensores infrarrojos ubicados en la parte inferior así como los que se encuentran en la parte frontal del agente, sensor ultrasónico y los leds soldados a la placa base. Para esta librería se utilizó la distribución de pines BCM, la cual se encuentra disponible en este repositorio.
+
+
