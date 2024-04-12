@@ -1,6 +1,11 @@
 # ESTIMADO AMIGO LECTOR
 
-El objetivo de este repositorio es brindarte una herramienta mas con la que puedas trabajar experimentos de robotica de enjambre y que puedas ver el analisis desde la perspectiva de ingeniería de un agente robótico funcional. Sirvete encontrarte con 3 carpetas principales:
+El objetivo de este repositorio es brindarte una herramienta mas con la que puedas trabajar experimentos de robotica de enjambre y que puedas ver el analisis desde la perspectiva de ingeniería de un agente robótico funcional. 
+
+**IMPORTANTE: ESTE PRIMER README TIENE COMO OBJETIVO BRINDARTE UNA BREVE DESCRIPCION DE LOS ELEMENTOS DE ESTE REPOSITORIO
+TE RECOMIENDO ENCARECIDAMENTE LEERLO Y PASAR A TRABAJO_DE_GRADUACION.MD PARA DISFRUTAR DEL TRABAJO COMPLETO Y DETALLADO**
+
+Sirvete encontrarte con lo siguiente:
 
 # ALPHABOT: DOCUMENTOS
 
@@ -19,3 +24,6 @@ El objetivo de este repositorio es brindarte una herramienta mas con la que pued
 -En esta carpeta encontrarás los dos scripts de programacion fundamentales con los que se aporto al trabajo de graduación. En su carpeta encontrarás mas información respecto a cada uno, sin embargo te puedo anticipar que corresponden al sistema de comunicacion esclavo-maestro de los agentes roboticos y que sirvio como plataforma para comunicar instrucciones y recibir comandos en el servicor (PC) proveniente de los agentes roboticos 
 
 # ALPHABOT: TRABAJO DE GRADUACION.MD
+- Aquí encontraras el consolidado del trabajo de graduación en formato repositorio para que puedas leerlo en GitHub, se adjunta también la version en PDF del trabajo final y posterior a la autorización final por parte de Secretaria General de la UVG de aprobada la tesis en cuanto a forma y redacción.
+
+
